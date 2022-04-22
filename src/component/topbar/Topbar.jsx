@@ -1,5 +1,6 @@
 import React from 'react';
 import './topbar.css';
+import image from './passport001.jpg';
 import { NotificationsNone, Language, Settings } from '@mui/icons-material';
 
 export default function Topbar() {
@@ -21,7 +22,7 @@ export default function Topbar() {
           <div className='topbarIconContainer'>
             <Settings />
           </div>
-          <img src='../topbar/passport 001.jpg' alt='' className='topAvatar' />
+          <img src={image} alt='' className='topAvatar' />
         </div>
       </div>
     </div>
