@@ -24,7 +24,7 @@ export default function WidgetLg() {
             <img src={image1} alt='' className='widgetLgImg' />
             <span className='widgetLgName'>MF - Doom</span>
           </td>
-          <td className='widgetLgDate'>2 June 2021</td>
+          <td className='widgetLgDate'>4 April 2022</td>
           <td className='widgetLgAmount'>$122.00</td>
           <td className='widgetLgStatus'>
             <Button type='Approved' />
@@ -35,8 +35,8 @@ export default function WidgetLg() {
             <img src={image2} alt='' className='widgetLgImg' />
             <span className='widgetLgName'>Nas</span>
           </td>
-          <td className='widgetLgDate'>2 June 2021</td>
-          <td className='widgetLgAmount'>$122.00</td>
+          <td className='widgetLgDate'>10 April 2022</td>
+          <td className='widgetLgAmount'>$150.50</td>
           <td className='widgetLgStatus'>
             <Button type='Declined' />
           </td>
@@ -46,8 +46,8 @@ export default function WidgetLg() {
             <img src={image3} alt='' className='widgetLgImg' />
             <span className='widgetLgName'>Royce - Da - 56</span>
           </td>
-          <td className='widgetLgDate'>2 June 2021</td>
-          <td className='widgetLgAmount'>$122.00</td>
+          <td className='widgetLgDate'>12 April 2022</td>
+          <td className='widgetLgAmount'>$120.50</td>
           <td className='widgetLgStatus'>
             <Button type='Pending' />
           </td>
@@ -57,8 +57,8 @@ export default function WidgetLg() {
             <img src={image4} alt='' className='widgetLgImg' />
             <span className='widgetLgName'>Savage - Francis</span>
           </td>
-          <td className='widgetLgDate'>2 June 2021</td>
-          <td className='widgetLgAmount'>$122.00</td>
+          <td className='widgetLgDate'>20 April 2022</td>
+          <td className='widgetLgAmount'>$160.00</td>
           <td className='widgetLgStatus'>
             <Button type='Approved' />
           </td>
