@@ -49,7 +49,7 @@ export default function User() {
             </div>
             <div className='userShowInfo'>
               <LocationSearching className='UserShowIcon' />
-              <span className='userShowInfoTitle'>Harmburg | Germany</span>
+              <span className='userShowInfoTitle'>Harmburg, Germany</span>
             </div>
           </div>
         </div>
@@ -101,7 +101,7 @@ export default function User() {
                 <label>Address</label>
                 <input
                   type='text'
-                  placeholder='Hamburg | Germany'
+                  placeholder='Hamburg, Germany'
                   className='userUpdateInput'
                 />
               </div>
