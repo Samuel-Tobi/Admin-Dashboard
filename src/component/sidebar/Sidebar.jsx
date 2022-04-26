@@ -13,6 +13,7 @@ import {
   Event,
   Report,
 } from '@mui/icons-material';
+import { Link } from 'react-router-dom';
 
 export default function sidebar() {
   return (
@@ -36,13 +37,18 @@ export default function sidebar() {
         <div className='sidebarMenu'>
           <h3 className='sidebarTitle'>Quick Menu</h3>
           <ul className='sidebarList'>
-            <li className='sidebarListItem '>
-              <PersonOutline className='sidebarIcon' />
-              Users
-            </li>
-            <li className='sidebarListItem'>
-              <Redeem className='sidebarIcon' /> Products
-            </li>
+            <Link to='/users' className='link'>
+              <li className='sidebarListItem '>
+                <PersonOutline className='sidebarIcon' />
+                Users
+              </li>
+            </Link>
+            <Link to='/products' className='link'>
+              <li className='sidebarListItem'>
+                <Redeem className='sidebarIcon' /> Products
+              </li>
+            </Link>
+
             <li className='sidebarListItem'>
               <AttachMoney className='sidebarIcon' /> Transactions
             </li>
