@@ -67,100 +67,92 @@ export const productData = [
 export const userRows = [
   {
     id: 1,
-    username: 'Jon Snow',
+    username: 'Jay Z',
     avatar:
-      'https://t3.ftcdn.net/jpg/04/10/26/72/240_F_410267286_J4jwbRXdZDTrgKVpsKcpzarD2eDgvL45.jpg',
-    email: 'jon@gmail.com',
+      'https://www.udiscovermusic.com/wp-content/uploads/2020/05/Jay-Z-GettyImages-1201923517-1000x600.jpg',
+    email: 'jayZ@gmail.com',
     status: 'active',
-    transaction: '$250.00',
+    transaction: '$4250.00',
   },
   {
     id: 2,
-    username: 'Jon Snow',
+    username: 'Lil Wayne',
     avatar:
-      'https://t3.ftcdn.net/jpg/04/10/26/72/240_F_410267286_J4jwbRXdZDTrgKVpsKcpzarD2eDgvL45.jpg',
-
-    email: 'jon@gmail.com',
+      'https://www.biography.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTQ3NjM5MzQyOTU5OTYxNDc2/lil_wayne_photo_by_ray_tamarra_getty_images_entertainment_getty_56680625.jpg',
+    email: 'lilwayne@gmail.com',
     status: 'active',
-    transaction: '$250.00',
+    transaction: '$2250.00',
   },
   {
     id: 3,
-    username: 'Jon Snow',
+    username: 'Eminem',
     avatar:
-      'https://t3.ftcdn.net/jpg/04/10/26/72/240_F_410267286_J4jwbRXdZDTrgKVpsKcpzarD2eDgvL45.jpg',
-
-    email: 'jon@gmail.com',
+      'https://www.biography.com/.image/t_share/MTQ3NjM5MTEzMTc5MjEwODI2/eminem_photo_by_dave_j_hogan_getty_images_entertainment_getty_187596325.jpg',
+    email: 'eminem@gmail.com',
     status: 'active',
-    transaction: '$250.00',
+    transaction: '$4250.00',
   },
   {
     id: 4,
-    username: 'Jon Snow',
-    avatar:
-      'https://t3.ftcdn.net/jpg/04/10/26/72/240_F_410267286_J4jwbRXdZDTrgKVpsKcpzarD2eDgvL45.jpg',
-    email: 'jon@gmail.com',
+    username: 'Chali 2na',
+    avatar: 'https://upload.wikimedia.org/wikipedia/commons/2/2a/Chali2na.jpg',
+    email: 'chali@gmail.com',
     status: 'active',
-    transaction: '$250.00',
+    transaction: '$1250.00',
   },
   {
     id: 5,
-    username: 'Jon Snow',
+    username: 'Cool G',
     avatar:
-      'https://t3.ftcdn.net/jpg/04/10/26/72/240_F_410267286_J4jwbRXdZDTrgKVpsKcpzarD2eDgvL45.jpg',
-    email: 'jon@gmail.com',
+      'https://static.hiphopdx.com/2018/05/180530-kool-g-rap-getty-800x600.jpg',
+    email: 'coolG@gmail.com',
     status: 'active',
-    transaction: '$250.00',
+    transaction: '$2250.00',
   },
   {
     id: 6,
-    username: 'Jon Snow',
+    username: 'Mf Doom',
     avatar:
-      'https://t3.ftcdn.net/jpg/04/10/26/72/240_F_410267286_J4jwbRXdZDTrgKVpsKcpzarD2eDgvL45.jpg',
-
-    email: 'jon@gmail.com',
+      'https://media.newyorker.com/photos/5ff3a3bc57b0da1b1e6a310c/4:3/w_2264,h_1698,c_limit/Hsu-MFDOOM.jpg',
+    email: 'mfdoom@gmail.com',
     status: 'active',
-    transaction: '$250.00',
+    transaction: '$1550.00',
   },
   {
     id: 7,
-    username: 'Jon Snow',
+    username: 'Nas',
     avatar:
-      'https://t3.ftcdn.net/jpg/04/10/26/72/240_F_410267286_J4jwbRXdZDTrgKVpsKcpzarD2eDgvL45.jpg',
-
-    email: 'jon@gmail.com',
+      'https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTIwNjA4NjMzNjkyMzI1Mzg4/nas-507692-1-402.jpg',
+    email: 'nas@gmail.com',
     status: 'active',
-    transaction: '$250.00',
+    transaction: '$3250.00',
   },
   {
     id: 8,
-    username: 'Jon Snow',
+    username: 'Royce Da 59',
     avatar:
-      'https://t3.ftcdn.net/jpg/04/10/26/72/240_F_410267286_J4jwbRXdZDTrgKVpsKcpzarD2eDgvL45.jpg',
-
-    email: 'jon@gmail.com',
+      'https://thesource.com/wp-content/uploads/2019/11/royce-da-59-rapup-hq.jpg',
+    email: 'royce@gmail.com',
     status: 'active',
-    transaction: '$250.00',
+    transaction: '$2250.00',
   },
   {
     id: 9,
-    username: 'Jon Snow',
+    username: 'Savage Francis',
     avatar:
-      'https://t3.ftcdn.net/jpg/04/10/26/72/240_F_410267286_J4jwbRXdZDTrgKVpsKcpzarD2eDgvL45.jpg',
-
+      'https://www.umsportshalloffame.com/uploads/4/3/8/4/43847997/1675658.jpg',
     email: 'jon@gmail.com',
     status: 'active',
-    transaction: '$250.00',
+    transaction: '$2550.00',
   },
   {
     id: 10,
-    username: 'Jon Snow',
+    username: 'Remininsce',
     avatar:
-      'https://t3.ftcdn.net/jpg/04/10/26/72/240_F_410267286_J4jwbRXdZDTrgKVpsKcpzarD2eDgvL45.jpg',
-
-    email: 'jon@gmail.com',
+      'https://thenationonlineng.net/wp-content/uploads/2020/09/Reminisce.jpg',
+    email: 'remi@gmail.com',
     status: 'active',
-    transaction: '$250.00',
+    transaction: '$9250.00',
   },
 ];
 
