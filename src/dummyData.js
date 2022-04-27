@@ -49,6 +49,21 @@ export const UserData = [
   },
 ];
 
+export const productData = [
+  {
+    name: 'Jan',
+    Sales: 4000,
+  },
+  {
+    name: 'Feb',
+    Sales: 3000,
+  },
+  {
+    name: 'Mar',
+    Sales: 5000,
+  },
+];
+
 export const userRows = [
   {
     id: 1,
@@ -146,5 +161,88 @@ export const userRows = [
     email: 'jon@gmail.com',
     status: 'active',
     transaction: '$250.00',
+  },
+];
+
+export const productRows = [
+  {
+    id: 1,
+    name: 'Apple Airpords',
+    img: 'https://t4.ftcdn.net/jpg/03/10/64/19/240_F_310641935_1rQJDqgDj1yxn81oqxdHcfN6bSKVXQpP.jpg',
+    stock: '123',
+    status: 'active',
+    price: '$250.00',
+  },
+  {
+    id: 2,
+    name: 'Apple Airpords',
+    img: 'https://t4.ftcdn.net/jpg/03/10/64/19/240_F_310641935_1rQJDqgDj1yxn81oqxdHcfN6bSKVXQpP.jpg',
+    stock: '123',
+    status: 'active',
+    price: '$250.00',
+  },
+  {
+    id: 3,
+    name: 'Apple Airpords',
+    img: 'https://t4.ftcdn.net/jpg/03/10/64/19/240_F_310641935_1rQJDqgDj1yxn81oqxdHcfN6bSKVXQpP.jpg',
+    stock: '123',
+    status: 'active',
+    price: '$250.00',
+  },
+  {
+    id: 4,
+    name: 'Apple Airpords',
+    img: 'https://t4.ftcdn.net/jpg/03/10/64/19/240_F_310641935_1rQJDqgDj1yxn81oqxdHcfN6bSKVXQpP.jpg',
+    stock: '123',
+    status: 'active',
+    price: '$250.00',
+  },
+  {
+    id: 5,
+    name: 'Apple Airpords',
+    img: 'https://t4.ftcdn.net/jpg/03/10/64/19/240_F_310641935_1rQJDqgDj1yxn81oqxdHcfN6bSKVXQpP.jpg',
+    stock: '123',
+    status: 'active',
+    price: '$250.00',
+  },
+  {
+    id: 6,
+    name: 'Apple Airpords',
+    img: 'https://t4.ftcdn.net/jpg/03/10/64/19/240_F_310641935_1rQJDqgDj1yxn81oqxdHcfN6bSKVXQpP.jpg',
+    stock: '123',
+    status: 'active',
+    price: '$250.00',
+  },
+  {
+    id: 7,
+    name: 'Apple Airpords',
+    img: 'https://t4.ftcdn.net/jpg/03/10/64/19/240_F_310641935_1rQJDqgDj1yxn81oqxdHcfN6bSKVXQpP.jpg',
+    stock: '123',
+    status: 'active',
+    price: '$250.00',
+  },
+  {
+    id: 8,
+    name: 'Apple Airpords',
+    img: 'https://t4.ftcdn.net/jpg/03/10/64/19/240_F_310641935_1rQJDqgDj1yxn81oqxdHcfN6bSKVXQpP.jpg',
+    stock: '123',
+    status: 'active',
+    price: '$250.00',
+  },
+  {
+    id: 9,
+    name: 'Apple Airpords',
+    img: 'https://t4.ftcdn.net/jpg/03/10/64/19/240_F_310641935_1rQJDqgDj1yxn81oqxdHcfN6bSKVXQpP.jpg',
+    stock: '123',
+    status: 'active',
+    price: '$250.00',
+  },
+  {
+    id: 10,
+    name: 'Apple Airpords',
+    img: 'https://t4.ftcdn.net/jpg/03/10/64/19/240_F_310641935_1rQJDqgDj1yxn81oqxdHcfN6bSKVXQpP.jpg',
+    stock: '123',
+    status: 'active',
+    price: '$250.00',
   },
 ];
