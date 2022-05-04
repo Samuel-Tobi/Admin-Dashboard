@@ -8,3 +8,8 @@
 .chartTitle {
   margin-bottom: 20px;
 }
+
+.graph {
+  display: flex;
+  flex-direction: row;
+}

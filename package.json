@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Samuel-Tobi.github.io/admin-dashboard",
   "name": "admin-dashboard",
   "version": "0.1.0",
   "private": true,
@@ -16,16 +17,21 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^3.2.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
     "recharts": "^2.1.9",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4",
     "worked": "^0.0.2"
   },
   "scripts": {
+    "predeploy": "yarn run buid",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
