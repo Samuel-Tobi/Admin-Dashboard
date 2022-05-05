@@ -11,7 +11,7 @@ export default function SliderBar() {
 
   return (
     <div className='slider'>
-      <Box sx={{ height: 200 }}>
+      <Box sx={{ height: 250 }}>
         <Slider
           sx={{
             '& input[type="range"]': {
