@@ -10,12 +10,12 @@ export default function SliderBar({ onDataSet }) {
     }
   }
 
+  const [data, setData] = useState(25);
+
   const handleChange = (event, newData) => {
     setData(newData);
     onDataSet(newData);
   };
-
-  const [value, setData] = useState(1);
 
   return (
     <div className='slider'>
@@ -26,7 +26,7 @@ export default function SliderBar({ onDataSet }) {
               WebkitAppearance: 'slider-vertical',
             },
           }}
-          value={value}
+          value={data}
           onChange={handleChange}
           orientation='vertical'
           // defaultValue={30}
