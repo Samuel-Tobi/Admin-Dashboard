@@ -1,50 +1,54 @@
 export const UserData = [
   {
-    month: 'Jan',
-    'Active User': 4000,
+    name: '',
+    'Active User': '',
   },
   {
-    month: 'Feb',
-    'Active User': 3000,
+    name: 'Jan',
+    'Active User': 1264,
   },
   {
-    month: 'Mar',
-    'Active User': 5000,
+    name: 'Feb',
+    'Active User': 2100,
   },
   {
-    month: 'Apr',
-    'Active User': 4000,
+    name: 'Mar',
+    'Active User': 1560,
   },
   {
-    month: 'May',
-    'Active User': 3000,
+    name: 'Apr',
+    'Active User': 800,
   },
   {
-    month: 'Jun',
+    name: 'May',
+    'Active User': 3250,
+  },
+  {
+    name: 'Jun',
     'Active User': 2000,
   },
   {
-    month: 'Jul',
-    'Active User': 4000,
+    name: 'Jul',
+    'Active User': 3500,
   },
   {
-    month: 'Aug',
+    name: 'Aug',
     'Active User': 3000,
   },
   {
-    month: 'Sep',
-    'Active User': 4000,
+    name: 'Sep',
+    'Active User': 4210,
   },
   {
-    month: 'Oct',
-    'Active User': 1000,
+    name: 'Oct',
+    'Active User': 1900,
   },
   {
-    month: 'Nov',
-    'Active User': 4000,
+    name: 'Nov',
+    'Active User': 3210,
   },
   {
-    month: 'Dec',
+    name: 'Dec',
     'Active User': 3000,
   },
 ];

@@ -7,22 +7,21 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from 'recharts';
-import SliderBar from '../slider/SliderBar';
-export default function chart({ title, data, dataKey, grid }) {
+
+export default function chart({ data, dataKey, grid }) {
   return (
     <div className='chart'>
-      <h3 className='chartTitle'>{title}</h3>
-      <div className='graph'>
-        <SliderBar />
-        <ResponsiveContainer width='100%' aspect={4 / 1}>
-          <LineChart data={data}>
-            {<XAxis dataKey='name' stroke='#5550bd' />}
-            <Line type='monotone' dataKey={dataKey} stroke='#5550bd' />
-            <Tooltip />
-            {grid && <CartesianGrid stroke='#e0dfdf' strokeDasharray='5 5' />}
-          </LineChart>
-        </ResponsiveContainer>
+      <div className='chartTitle'>
+        <h3>User Analytics</h3>
       </div>
+      <ResponsiveContainer width='100%' aspect={4 / 1}>
+        <LineChart data={data}>
+          {<XAxis dataKey='name' stroke='#5550bd' />}
+          <Line type='monotone' dataKey={dataKey} stroke='#5550bd' />
+          <Tooltip />
+          {grid && <CartesianGrid stroke='#e0dfdf' strokeDasharray='5 5' />}
+        </LineChart>
+      </ResponsiveContainer>
     </div>
   );
 }

@@ -1,8 +1,21 @@
 .home {
   flex: 4;
 }
+.slider {
+  display: flex;
+  flex-direction: row;
+}
 
 .homeWidgets {
   display: flex;
   margin: 20px;
+}
+
+.chartContainer {
+  display: flex;
+  margin: 20px;
+  border-radius: 10px;
+  flex-direction: row;
+  -webkit-box-shadow: 0px 0px 15px -10px #000000;
+  box-shadow: 0px 0px 15px -10px #000000;
 }

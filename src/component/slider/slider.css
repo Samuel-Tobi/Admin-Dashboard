@@ -1,3 +1,8 @@
 .slider {
-  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }

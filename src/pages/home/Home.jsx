@@ -4,9 +4,18 @@ import './home.css';
 import { UserData } from '../../dummyData';
 import WidgetSm from '../../component/widgetSm/WidgetSm';
 import WidgetLg from '../../component/widgetLg/WidgetLg';
+import React, { useState } from 'react';
+import SliderBar from '../../component/slider/SliderBar';
 
-export default function Home() {
-  let sliderValue = 5;
+// import SliderBar from '../../component/slider/SliderBar';
+
+export default function Home(props) {
+  const [sliderValue, setSliderValue] = useState(1);
+
+  const getSliderData = value => {
+    setSliderValue(value);
+  };
+
   const userDataTransform = UserData.map(newUserData);
 
   function newUserData(month) {
@@ -18,12 +27,13 @@ export default function Home() {
   return (
     <div className='home'>
       <FeaturedInfo />
-      <Chart
-        data={userDataTransform}
-        title='User Analytics'
-        grid
-        dataKey='Active User'
-      />
+      <div className='slider'></div>
+
+      <div className='chartContainer'>
+        <SliderBar onDataSet={getSliderData} />
+        <Chart data={userDataTransform} grid dataKey='Active User' />
+      </div>
+
       <div className='homeWidgets'>
         <WidgetSm />
         <WidgetLg />
