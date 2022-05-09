@@ -10,7 +10,7 @@ export default function SliderBar({ onDataSet }) {
     }
   }
 
-  const [data, setData] = useState(25);
+  const [data, setData] = useState(15);
 
   const handleChange = (event, newData) => {
     setData(newData);
