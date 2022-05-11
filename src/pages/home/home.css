@@ -1,21 +1,38 @@
 .home {
   flex: 4;
+  margin: 10px;
 }
-.slider {
+
+.chartTitle {
+  padding: 10px;
+  margin: 5px 25px;
+  width: 150px;
+}
+
+.chartContainer {
   display: flex;
   flex-direction: row;
+  margin-left: 20px;
+  width: 55%;
+  padding: 30px;
+  padding-top: 30px;
+  -webkit-box-shadow: 0px 0px 15px -10px #000000;
+  box-shadow: 0px 0px 15px -10px #000000;
+}
+
+.slider {
+  padding: 8px 0;
+  -webkit-box-shadow: 0px 0px 15px -10px #000000;
+  box-shadow: 0px 0px 15px -10px #000000;
+  -webkit-box-shadow: 0px 0px 15px -10px #000000;
+  box-shadow: 0px 0px 15px -10px #000000;
+}
+
+.graph {
+  margin-left: 30px;
 }
 
 .homeWidgets {
   display: flex;
   margin: 20px;
-}
-
-.chartContainer {
-  display: flex;
-  margin: 20px;
-  border-radius: 10px;
-  flex-direction: row;
-  -webkit-box-shadow: 0px 0px 15px -10px #000000;
-  box-shadow: 0px 0px 15px -10px #000000;
 }

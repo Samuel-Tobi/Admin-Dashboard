@@ -1,6 +1,8 @@
-.slider {
-  margin-left: -15px;
-  width: 5px;
+.progress {
+  margin-left: 100px;
+  padding: 20px;
+  width: 270px;
+  background-color: white;
   -webkit-box-shadow: 0px 0px 15px -10px #000000;
   box-shadow: 0px 0px 15px -10px #000000;
 }

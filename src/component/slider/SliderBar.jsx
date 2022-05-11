@@ -10,7 +10,7 @@ export default function SliderBar({ onDataSet }) {
     }
   }
 
-  const [data, setData] = useState(15);
+  const [data, setData] = useState(0);
 
   const handleChange = (event, newData) => {
     setData(newData);
@@ -18,7 +18,7 @@ export default function SliderBar({ onDataSet }) {
   };
 
   return (
-    <div className='slider'>
+    <div>
       <Box sx={{ height: 250 }}>
         <Slider
           sx={{
@@ -29,7 +29,6 @@ export default function SliderBar({ onDataSet }) {
           value={data}
           onChange={handleChange}
           orientation='vertical'
-          // defaultValue={30}
           aria-label='Temperature'
           onKeyDown={preventHorizontalKeyboardNavigation}
         />

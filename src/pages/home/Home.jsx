@@ -6,11 +6,10 @@ import WidgetSm from '../../component/widgetSm/WidgetSm';
 import WidgetLg from '../../component/widgetLg/WidgetLg';
 import React, { useState } from 'react';
 import SliderBar from '../../component/slider/SliderBar';
+import ProgressBar from '../../component/progressbar/ProgressBar';
 
-// import SliderBar from '../../component/slider/SliderBar';
-
-export default function Home(props) {
-  const [sliderValue, setSliderValue] = useState(1);
+export default function Home() {
+  const [sliderValue, setSliderValue] = useState(5);
 
   const getSliderData = value => {
     setSliderValue(value);
@@ -27,11 +26,20 @@ export default function Home(props) {
   return (
     <div className='home'>
       <FeaturedInfo />
-      <div className='slider'></div>
 
-      <div className='chartContainer'>
-        <SliderBar onDataSet={getSliderData} />
-        <Chart data={userDataTransform} grid dataKey='Active User' />
+      <div className='chart'>
+        <h3 className='chartTitle'>User Analytics</h3>
+        <div className='chartContainer'>
+          <div className='slider'>
+            <SliderBar onDataSet={getSliderData} />
+          </div>
+          <div className='graph'>
+            <Chart data={userDataTransform} grid dataKey='Active User' />
+          </div>
+          <div>
+            <ProgressBar progressValue={sliderValue} />
+          </div>
+        </div>
       </div>
 
       <div className='homeWidgets'>
