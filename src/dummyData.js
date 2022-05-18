@@ -51,6 +51,7 @@ export const UserData = [
     name: 'Dec',
     'Active User': 3000,
   },
+  {},
 ];
 
 export const productData = [
