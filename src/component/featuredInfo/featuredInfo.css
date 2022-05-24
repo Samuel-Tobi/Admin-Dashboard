@@ -11,7 +11,7 @@
   border-radius: 10px;
   cursor: pointer;
   -webkit-box-shadow: 0px 0px 15px -10px #000000;
-  box-shadow: 0px 0px 15px -10px #000000;
+  box-shadow: 1px 0px 8px -2px rgba(0, 0, 0, 1);
 }
 
 .featuredTitle {
@@ -35,10 +35,18 @@
   margin-left: 20px;
 }
 
-.featuredIcon {
-  font-size: 14px;
-  margin-left: 5px;
-  color: green;
+.featuredItem.revenue {
+  color: white;
+  background-color: #26e126;
+}
+
+.featuredItem.sales {
+  background-color: rgb(244, 244, 10);
+}
+
+.featuredItem.cost {
+  color: white;
+  background-color: rgb(254, 9, 9);
 }
 
 .featuredIcon.negative {

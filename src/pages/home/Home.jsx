@@ -18,14 +18,15 @@ export default function Home() {
   const userDataTransform = UserData.map(newUserData);
 
   function newUserData(month) {
-    const newActiveUserValue = sliderValue * month['Active User'];
+    const newActiveUserValue =
+      sliderValue * month['Active User'] * Math.random();
     const newMonthValue = { ...month, 'Active User': newActiveUserValue };
     return newMonthValue;
   }
 
   return (
     <div className='home'>
-      <FeaturedInfo />
+      <FeaturedInfo sliderValue={sliderValue} />
 
       <div className='chart'>
         <h3 className='chartTitle'>User Analytics</h3>
