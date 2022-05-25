@@ -37,16 +37,20 @@
 
 .featuredItem.revenue {
   color: white;
-  background-color: #26e126;
+  background-color: hsl(120, 33%, 50%);
+}
+.featuredIcon.positive {
+  color: green;
 }
 
 .featuredItem.sales {
-  background-color: rgb(244, 244, 10);
+  color: white;
+  background-color: rgb(202, 202, 39);
 }
 
 .featuredItem.cost {
   color: white;
-  background-color: rgb(254, 9, 9);
+  background-color: rgb(245, 38, 38);
 }
 
 .featuredIcon.negative {
@@ -54,5 +58,5 @@
 }
 .featuredSub {
   font-size: 15;
-  color: gray;
+  color: rgb(17, 5, 5);
 }

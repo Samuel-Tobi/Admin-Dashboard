@@ -19,10 +19,18 @@ export default function FeaturedInfo(sliderValue) {
         <span className='featuredTitle'>Revenue</span>
         <div className='featuredMoneyContainer'>
           <span className='featuredMoney'>${currentFeaturedMoney}</span>
-          <span className='featuredMoneyRate'>
-            ${currentFeaturedMoneyRate}
-            <ArrowDownward className='featuredIcon negative' />
-          </span>
+          {currentFeaturedMoneyRate < 180 && (
+            <span className='featuredMoneyRate '>
+              {currentFeaturedMoneyRate}
+              <ArrowDownward className='featuredIcon negative' />
+            </span>
+          )}
+          {currentFeaturedMoneyRate >= 180 && (
+            <span className='featuredMoneyRate'>
+              +{currentFeaturedMoneyRate}
+              <ArrowUpward className='featuredIcon positive' />
+            </span>
+          )}
         </div>
         <div className='featuredSub'>Compared to last month</div>
       </div>
@@ -34,10 +42,19 @@ export default function FeaturedInfo(sliderValue) {
         <span className='featuredTitle'>Sales</span>
         <div className='featuredMoneyContainer'>
           <span className='featuredMoney'>${currentFeaturedSales}</span>
-          <span className='featuredMoneyRate'>
-            ${currentFeaturedSalesRate}
-            <ArrowDownward className='featuredIcon negative' />
-          </span>
+          {currentFeaturedSalesRate < 164 && (
+            <span className='featuredMoneyRate'>
+              {currentFeaturedSalesRate}
+              <ArrowDownward className='featuredIcon negative' />
+            </span>
+          )}
+
+          {currentFeaturedSalesRate >= 164 && (
+            <span className='featuredMoneyRate'>
+              +{currentFeaturedSalesRate}
+              <ArrowUpward className='featuredIcon positive' />
+            </span>
+          )}
         </div>
         <div className='featuredSub'>Compared to last month</div>
       </div>
@@ -47,10 +64,18 @@ export default function FeaturedInfo(sliderValue) {
         <span className='featuredTitle'>Cost</span>
         <div className='featuredMoneyContainer'>
           <span className='featuredMoney'>${currentFeaturedCost}</span>
-          <span className='featuredMoneyRate'>
-            ${currentFeaturedCostRate}
-            <ArrowUpward className='featuredIcon' />
-          </span>
+          {currentFeaturedCostRate < 81 && (
+            <span className='featuredMoneyRate'>
+              {currentFeaturedCostRate}
+              <ArrowDownward className='featuredIcon negative' />
+            </span>
+          )}
+          {currentFeaturedCostRate >= 81 && (
+            <span className='featuredMoneyRate'>
+              +{currentFeaturedCostRate}
+              <ArrowUpward className='featuredIcon positive' />
+            </span>
+          )}
         </div>
         <div className='featuredSub'>Compared to last month</div>
       </div>

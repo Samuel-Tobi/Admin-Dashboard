@@ -27,22 +27,20 @@ export default function Home() {
   return (
     <div className='home'>
       <FeaturedInfo sliderValue={sliderValue} />
-
+      <div className='slider'>
+        <SliderBar onDataSet={getSliderData} />
+      </div>
       <div className='chart'>
-        <h3 className='chartTitle'>User Analytics</h3>
         <div className='chartContainer'>
-          <div className='slider'>
-            <SliderBar onDataSet={getSliderData} />
-          </div>
+          <h3 className='chartTitle'>User Analytics</h3>
           <div className='graph'>
             <Chart data={userDataTransform} grid dataKey='Active User' />
           </div>
-          <div>
-            <ProgressBar progressValue={sliderValue} />
-          </div>
         </div>
       </div>
-
+      <div>
+        <ProgressBar progressValue={sliderValue} />
+      </div>
       <div className='homeWidgets'>
         <WidgetSm />
         <WidgetLg />
