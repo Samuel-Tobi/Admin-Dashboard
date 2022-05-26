@@ -56,6 +56,9 @@
 .featuredIcon.negative {
   color: red;
 }
+.featuredIcon.negativee {
+  color: rgb(115, 17, 17);
+}
 .featuredSub {
   font-size: 15;
   color: rgb(17, 5, 5);

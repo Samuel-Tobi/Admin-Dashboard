@@ -73,7 +73,7 @@ export default function FeaturedInfo(sliderValue) {
           {currentFeaturedCostRate >= 81 && (
             <span className='featuredMoneyRate'>
               +{currentFeaturedCostRate}
-              <ArrowUpward className='featuredIcon positive' />
+              <ArrowUpward className='featuredIcon negativee' />
             </span>
           )}
         </div>
